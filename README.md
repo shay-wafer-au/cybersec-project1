@@ -104,9 +104,9 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the private IP address of the ELK Server under '[elk]'.
 - Run the playbook, and navigate to http://<IP.of.ELK.Server>:5601/app/kibana to check that the installation worked as expected.
 
-'''bash
+```bash
 curl https://raw.githubusercontent.com/shay-wafer-au/cybersec-project1/main/Ansible/install-elk.yml > /etc/ansible/install-elk.yml
 nano /etc/ansible/hosts # Add the private IP address of the ELK Server under [elk]
 ansible-playbook /etc/ansible/install-elk.yml
-'''
+```
 
