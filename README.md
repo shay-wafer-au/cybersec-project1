@@ -124,5 +124,5 @@ Using the diagnostic app `stress`, we were able to simulate excessively high CPU
 
 Using the [wget_barrage.sh](Linux/wget_barrage.sh) script, we were able to simulate a high number of web requests to the VMs.
 
-![alt text](Images/wget_barrage.png "Simulation of excessively high CPU usage on the VMs.")
+![alt text](Images/wget_barrage.png "Simulation of high number of web requests to the VMs.")
 
