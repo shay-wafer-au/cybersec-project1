@@ -111,3 +111,18 @@ nano /etc/ansible/hosts # Add the private IP address of the ELK Server under [el
 ansible-playbook /etc/ansible/install-elk.yml
 ```
 
+
+### Investigation into using Kibana
+
+Using the [ssh_barrage.sh](Linux/ssh_barrage.sh) script, we were able to simulate a high number of failed SSH login attempts into the VMs.
+
+![alt text](Images/ssh_barrage.png "Simulation of high number of failed SSH login attempts.")
+
+Using the diagnostic app `stress`, we were able to simulate excessively high CPU usage on the VMs.
+
+![alt text](Images/cpu_usage.png "Simulation of excessively high CPU usage on the VMs.")
+
+Using the [wget_barrage.sh](Linux/wget_barrage.sh) script, we were able to simulate a high number of web requests to the VMs.
+
+![alt text](Images/cpu_usage.png "Simulation of excessively high CPU usage on the VMs.")
+
