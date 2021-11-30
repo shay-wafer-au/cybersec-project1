@@ -46,7 +46,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 122.150.61.155 (home IP)
+- 122.150.61.155 (home IP, dynamic and likely to change)
 - 49.255.X1.X2 (work IP #1, obfuscated for security)
 - 49.255.Y1.Y2 (work IP #2, obfuscated for security)
 
