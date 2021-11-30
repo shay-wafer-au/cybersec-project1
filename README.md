@@ -63,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 | ELK-Server           | No                  | Home-IP, Work IP #1, Work IP #2, 10.0.0.4 |
 
 
-### Elk Configuration
+### ELK Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because we can easily replicate the configuration across multiple machines, regardless of number.
 
